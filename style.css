@@ -1,0 +1,92 @@
+.wrapper {
+    max-width: 45rem;
+    margin: 0 auto;
+    background-image: url(https://images.pexels.com/photos/3796558/pexels-photo-3796558.jpeg?);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    
+body {
+    margin: 0;
+}
+
+h1, h2, i {
+    color: #ffebdf;
+    text-shadow: 0 0 1rem black;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+li {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+ul {
+    margin-left: 2rem;
+}
+
+.output {
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 70%;
+    min-height: 8rem;
+}
+
+#list {
+    padding: 0;
+}
+
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+button {
+    padding: 0.7rem;
+    background-color: #ffebdf;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #dbc7ba;
+}
+
+button:active {
+    background-color: #ccb7aa;
+}
+
+footer {
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer i {
+    font-size: 3rem;
+}
+
+header > *, main > *, footer > *{
+    margin: 1rem;
+}
+
+.fa-shop {
+    font-size: 10rem;
+}
